@@ -1,0 +1,48 @@
+{
+ "date": "21 OCT 2026",
+ "category": "live",
+ "accent": "#FF4A2E",
+ "accentDeep": "#B33320",
+ "hue": -64,
+ "kicker": "NEWS · LIVE",
+ "title": "Backyard Worlds: *USA* leads",
+ "hook": "96 hours in, four nations are left and 100 yards is in sight.",
+ "icon": "stopwatch",
+ "seed": 3,
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "*Australia is out*, USA leads",
+   "c": "As of 21 Oct, 15:36 CEST, the USA leads the Backyard Ultra World Team Championship on 1,099 yards. Australia finished on 1,069 with no runners left.",
+   "icon": "trophy"
+  },
+  {
+   "label": "The numbers",
+   "h": "*Four nations* still running",
+   "stat": [
+    "1,099",
+    "USA team yards"
+   ],
+   "c": "USA, Japan, Belgium and France each have 2 runners left. Japan is on 1,021 yards, Belgium 1,002, France 880.",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "*100 yards* in sight",
+   "c": "The USA heads back to the trail for yard 97. Every yard is a 6.7 km loop run hourly, and a nation's race ends when one runner completes a yard alone. Totals are provisional.",
+   "icon": "podium"
+  }
+ ],
+ "sources": [
+  "Official live standings, Big's Backyard Ultra (21 Oct 2026, 15:36 CEST)"
+ ],
+ "story": "backyard-wtc-2026",
+ "caption": "NEWS: Backyard Worlds: Australia is out, USA leads\n\nAs of 21 Oct, 15:36 CEST, the USA leads the Backyard Ultra World Team Championship on 1,099 yards. Australia finished on 1,069. USA, Japan, Belgium and France each have 2 runners left, and 100 yards is in sight. Totals are provisional.\n\nSource: Official Big's Backyard Ultra live standings\n\nTags: @bigdogbackyardultra\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #backyardultra #ultrarunning #worldteamchampionship",
+ "facts": [
+  {
+   "claim": "USA 1,099 (2 left), Australia 1,069 (none left), Japan 1,021, Belgium 1,002, France 880; four nations remain; USA back on trail for yard 97; 100 yards in sight",
+   "source": "https://www.instagram.com/bigdogbackyardultra/ (official, screenshot provided by Andrew)",
+   "timestamp": "2026-10-21 15:36 CEST"
+  }
+ ]
+}
