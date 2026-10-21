@@ -13,7 +13,7 @@ html,body{width:1080px;height:1350px;background:var(--track);overflow:hidden}
 .glow{position:absolute;inset:0;background:radial-gradient(95% 52% at 50% 108%,#262B1D 0%,rgba(11,12,10,0) 72%)}
 .top{position:absolute;left:72px;right:72px;top:64px;height:40px;display:flex;justify-content:space-between;align-items:center;font-family:"Martian Mono",monospace;font-weight:500;font-size:21px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);z-index:3}
 .volt .top{color:rgba(11,12,10,.62)}
-.tag{display:flex;align-items:center;gap:14px}.tag i{display:block;width:14px;height:14px;border-radius:50%;background:var(--volt)}.volt .tag i{background:var(--track)}
+.tag{display:flex;align-items:center;gap:14px}.tag i{display:block;width:14px;height:14px;border-radius:50%;background:var(--volt)}.volt .tag i{background:var(--track)}.tag svg{color:var(--volt);--bgc:#0B0C0A}.volt .tag svg{color:var(--track);--bgc:var(--volt)}
 .newsbadge{background:var(--volt);color:var(--track);padding:10px 22px;border-radius:999px;font-weight:500}
 .prog{position:absolute;left:72px;right:72px;bottom:68px;display:flex;gap:10px;z-index:3}
 .prog b{flex:1;height:8px;border-radius:4px;background:var(--line)}.prog b.on{background:var(--chalk)}.prog b.cur{background:var(--volt)}
@@ -47,7 +47,10 @@ const typo=s=>s.replace(/(^|[\s(—])'/g,"$1‘").replace(/'/g,"’").replace(/(
 const rich=s=>esc(typo(s||"")).replace(/\*([^*]+)\*/g,"<em>$1</em>");
 function fit(el,maxH,maxPx,minPx,step){let px=maxPx;el.style.fontSize=px+"px";const bad=()=>el.getBoundingClientRect().height>maxH||el.scrollWidth>el.clientWidth+1;while(bad()&&px>minPx){px-=step;el.style.fontSize=px+"px"}return !bad()}
 function prog(i,t){let h="";for(let k=1;k<=t;k++)h+='<b class="'+(k<i?"on":k===i?"cur":"")+'"></b>';return'<div class="prog">'+h+'</div>'}
-function topbar(d,volt){return '<div class="top"><div class="tag"><i></i>Earned Miles</div>'+(volt?'<div>'+esc(d.date||"")+'</div>':'<div class="newsbadge">News</div>')+'</div>'}
+function logo(h){let l="";[[12,1],[10,.7],[8,.48],[6,.3]].forEach((r,i)=>{const o=i*38;l+='<rect x="'+(205+o)+'" y="'+(335+o)+'" width="'+(670-2*o)+'" height="'+(410-2*o)+'" rx="'+(205-o)+'" stroke-width="'+r[0]+'" opacity="'+r[1]+'"/>'});
+const t=40,g=26,L=[210,150,210],sk=14,y0=-(3*t+2*g)/2,x0=-105;let p='<rect x="'+x0+'" y="'+y0+'" width="'+t+'" height="'+(3*t+2*g)+'"/>';L.forEach((q,i)=>{const yy=y0+i*(t+g);p+='<path d="M'+(x0+t-1)+' '+yy+'h'+(q-t-sk+1)+'l'+(-sk)+' '+t+'H'+(x0+t-1)+'z"/>'});
+return '<svg class="logo" viewBox="190 305 700 450" height="'+h+'" style="height:'+h+'px;width:auto"><g fill="none" stroke="currentColor" stroke-linecap="round">'+l+'</g><circle cx="540" cy="335" r="30" fill="currentColor"/><circle cx="540" cy="335" r="12" fill="var(--bgc,#0B0C0A)"/><g fill="currentColor" transform="translate(540 545) scale(.62)">'+p+'</g></svg>'}
+function topbar(d,volt){return '<div class="top"><div class="tag">'+logo(44)+'Earned Miles</div>'+(volt?'<div>'+esc(d.date||"")+'</div>':'<div class="newsbadge">News</div>')+'</div>'}
 window.render=function(d){
   const w=[];const r=document.getElementById("root");
   const rs=document.documentElement.style;rs.setProperty("--volt",d.accent||"#D4FF3A");rs.setProperty("--volt-deep",d.accentDeep||"#9DBF1F");rs.setProperty("--hue",(d.hue||0)+"deg");
