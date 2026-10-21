@@ -1,0 +1,59 @@
+{
+ "date": "21 OCT 2026",
+ "category": "live",
+ "accent": "#FF4A2E",
+ "accentDeep": "#B33320",
+ "hue": -64,
+ "kicker": "NEWS \u00b7 LIVE",
+ "title": "Backyard Worlds: *Australia* leads",
+ "hook": "Past 83 hours, USA is 13 yards behind with more runners left.",
+ "icon": "stopwatch",
+ "seed": 3,
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "Team Worlds is down to a *two-horse race*",
+   "c": "As of 21 Oct, Australia leads the Backyard Ultra World Team Championship on 1,062 yards. The USA is on 1,049.",
+   "icon": "trophy"
+  },
+  {
+   "label": "The numbers",
+   "h": "*13 yards* separate them",
+   "stat": [
+    "1,062",
+    "Australia team yards"
+   ],
+   "c": "Australia has 2 runners left, the USA has 7. Japan (986), Belgium (973) and the UK (926) follow.",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "Depth may beat *pace*",
+   "c": "Every yard is a 6.7 km loop run hourly. The USA can bank yards with seven runners, while Australia relies on two. Provisional totals.",
+   "icon": "podium"
+  }
+ ],
+ "sources": [
+  "Sportzhub, ABC News (21 Oct 2026)",
+  "Official: wtc2026.bigsbackyardultra.com"
+ ],
+ "story": "backyard-wtc-2026",
+ "caption": "NEWS: Backyard Worlds: Australia leads the team race\n\nAs of 21 Oct, Australia leads the Backyard Ultra World Team Championship on 1,062 yards, 13 ahead of the USA (1,049). Australia has 2 runners left, the USA has 7. Totals are provisional.\n\nSource: Sportzhub, ABC News\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #backyardultra #ultrarunning #worldteamchampionship",
+ "facts": [
+  {
+   "claim": "Australia 1,062 yards, USA 1,049; Australia 2 runners left, USA 7; Japan 986, Belgium 973, UK 926",
+   "source": "https://www.sportzhub.com/article/australia-under-pressure-as-usa-closes-in-at-backyard-ultra-world-team-championship.html",
+   "timestamp": "2026-10-21 12:01 NZDT"
+  },
+  {
+   "claim": "Australia down to Dan Camac and Ben Nicholls; Kembla Grange NSW",
+   "source": "https://www.abc.net.au/news/2026-10-21/backyard-ultra-world-team-championship-kembla-gorge-running/107283546",
+   "timestamp": "2026-10-21 12:28 AEDT"
+  },
+  {
+   "claim": "Past 83 hours; start Sat 17 Oct 12:00 UTC; totals provisional",
+   "source": "https://multidayrunning.com/events/backyard-ultra-world-championship",
+   "timestamp": "2026-10-20 18:55 UTC snapshot"
+  }
+ ]
+}
