@@ -1,0 +1,7 @@
+{"date":"21 OCT 2026","title":"Sample: new *super shoe* drops","hook":"Placeholder layout test for the News series.","icon":"shoe","seed":1,
+"slides":[
+ {"label":"What happened","h":"A brand launched a *new racing shoe*","c":"This is a layout test. Real news cards will state the facts here in two or three short sentences.","icon":"megaphone"},
+ {"label":"The numbers","h":"The key figures","stat":["199 g","Weight, size 42"],"c":"The stat box carries one number that matters. The caption explains it in plain words.","icon":"stopwatch"},
+ {"label":"Why it matters","h":"What it means for *runners*","c":"One clear takeaway for readers, written without hype and marked as reported where unconfirmed.","icon":"trophy"}
+],
+"sources":["Source A","Source B"]}
