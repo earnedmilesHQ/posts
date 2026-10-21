@@ -58,3 +58,8 @@ If the story is a new running shoe or a brand drop, send an email with the Gmail
 
 ## 8) FINISH
 Report in 2-3 Czech sentences: what story, when scheduled, which accounts were tagged, the Metricool planner link (and whether the shoe/drop email was sent). If you skipped, say why.
+
+## LIVE DATA SOURCES (use these first, they beat news articles by hours)
+- Backyard Ultra World Team Championship 2026: the official leaderboard is a published Google Sheet linked from https://wtc2026.bigsbackyardultra.com . Fetch CSV: WebFetch https://docs.google.com/spreadsheets/d/e/2PACX-1vR-vmYpj04JD3879yCoJkPoXz8YqjJw9ykVU70nb830fFkmdeEQE75d8fwI5gVbljKe8a0MeK2Grx7L/pub?output=csv (it redirects once to googleusercontent: fetch the redirect URL). Columns: rank, team code, runners left (#), yards, avg lap, runners. Header row shows the current yard. Use "as of <time CEST>" in the post. Official IG: @bigdogbackyardultra (always tag it for Backyard Ultra posts).
+- Before publishing a LIVE post, re-fetch the source right before scheduling and recheck once more at schedule time; if numbers changed, re-render.
+- Never post stale numbers: article sources (Sportzhub, ABC) lag by hours during live events.
