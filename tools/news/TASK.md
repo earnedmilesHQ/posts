@@ -29,6 +29,15 @@ Maintain tools/news/WATCHLIST.json in the repo: a JSON array of {id, what, date_
 ## 2) RENDERER
 Work in tools/news of the cloned repo: run `npm install` there. Render with: PW=/opt/npm-tools/node_modules/playwright CHROME=/opt/pw-browsers/chromium-1194/chrome-linux/chrome node news.js spec.json out . See README.md and sample.json for the spec format (title, hook, icon, slides[3] with label/h/c/stat?/icon, sources[]). Use *asterisks* around the 1-3 key words to highlight in volt. Keep texts SHORT: title <= 8 words, hook <= 14 words, each slide caption <= 2-3 short sentences, stat = one number + 3-word label (for lotteries/entries use dates or numbers such as the opening date or number of places; for drops use release date or price; for attempts use distance/days). Slide labels: "What happened", "The numbers", "Why it matters" (entries/lotteries: "What happened", "Key dates", "How to enter"; drops: "What dropped", "Key details", "Why it's hyped"; attempts: "The attempt", "The numbers", "Why it matters"). Icons: shoe/shoe2/trailshoe for shoes, trophy/podium/finish/laurel for races and records, stopwatch for times, calendar for dates/lotteries, flame for hype/drops, globe/hill/runner for epic journeys, megaphone/newspaper otherwise. IMPORTANT: do NOT draw, recreate or embed any brand logo or product design, and do not download brand/press images. Brand, event, athlete, team and model names appear as plain text only. Language: English.
 
+## CATEGORY COLOURS (mandatory)
+Every news post has exactly ONE category; set these fields in the render spec (accent, accentDeep, hue, kicker). Volt green is reserved for educational carousels/stories, never for News. Pick by the main topic; for multi-day events use LIVE while running, then RECORDS with the final result.
+- RECORDS & RESULTS (records, results, championships): "accent":"#FFB000","accentDeep":"#B37A00","hue":-31,"kicker":"NEWS · RECORDS & RESULTS"
+- DROPS & SHOES (new shoes, collections, collabs, brand drops): "accent":"#FF3DCB","accentDeep":"#A82889","hue":241,"kicker":"NEWS · DROPS & SHOES"
+- REGISTRATION (lotteries, registration opening/deadlines): "accent":"#4D8DFF","accentDeep":"#3162B3","hue":146,"kicker":"NEWS · REGISTRATION"
+- LIVE (ongoing events, epic attempts): "accent":"#FF4A2E","accentDeep":"#B33320","hue":-64,"kicker":"NEWS · LIVE"
+- HYPE (everything else big: comebacks, rule changes, big stories): "accent":"#A56BFF","accentDeep":"#7249B3","hue":192,"kicker":"NEWS · HYPE"
+The highlight *asterisks* in texts use the accent colour automatically. Add "category" to spec.json too.
+
 ## 3) QA
 If the renderer prints WARN lines, shorten the texts and re-render. Open all 5 PNGs with the Read tool and check that nothing overlaps or is cut off. Fix problems before publishing.
 

@@ -6,9 +6,10 @@ const spec=JSON.parse(fs.readFileSync(process.argv[2]));const out=process.argv[3
 const asset=n=>{if(!n)return null;for(const d of["news","icons"]){const p=path.join(__dirname,"assets",d,n+".png");if(fs.existsSync(p))return p}return null};
 const seed=spec.seed||0;
 const total=spec.slides.length+2;
-const items=[{kind:"cover",title:spec.title,hook:spec.hook,icon:asset(spec.icon),date:spec.date,total},
- ...spec.slides.map((s,k)=>({kind:"point",i:k+2,label:s.label,h:s.h,c:s.c,stat:s.stat||null,icon:asset(s.icon),date:spec.date,total})),
- {kind:"cta",h:spec.cta_h||"Follow for *running news*",sub:spec.cta_sub||"Save this. Send it to a running friend.",sources:spec.sources,date:spec.date,total}];
+const th={accent:spec.accent,accentDeep:spec.accentDeep,hue:spec.hue,kicker:spec.kicker};
+const items=[{...th,kind:"cover",title:spec.title,hook:spec.hook,icon:asset(spec.icon),date:spec.date,total},
+ ...spec.slides.map((s,k)=>({...th,kind:"point",i:k+2,label:s.label,h:s.h,c:s.c,stat:s.stat||null,icon:asset(s.icon),date:spec.date,total})),
+ {...th,kind:"cta",h:spec.cta_h||"Follow for *running news*",sub:spec.cta_sub||"Save this. Send it to a running friend.",sources:spec.sources,date:spec.date,total}];
 (async()=>{
   const b=await chromium.launch({executablePath:process.env.CHROME||undefined,args:["--no-sandbox","--allow-file-access-from-files"]});
   const p=await b.newPage({viewport:{width:1080,height:1350}});

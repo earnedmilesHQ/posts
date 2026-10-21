@@ -9,7 +9,7 @@
 html,body{width:1080px;height:1350px;background:var(--track);overflow:hidden}
 .s{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--track);color:var(--chalk);isolation:isolate;font-family:"Instrument Sans",Arial,sans-serif}
 .s.volt{background:var(--volt);color:var(--track)}
-.bgimg{position:absolute;inset:0;width:1080px;height:1350px;z-index:-1;opacity:.5}
+.bgimg{position:absolute;inset:0;width:1080px;height:1350px;z-index:-1;opacity:.5;filter:hue-rotate(var(--hue,0deg))}
 .glow{position:absolute;inset:0;background:radial-gradient(95% 52% at 50% 108%,#262B1D 0%,rgba(11,12,10,0) 72%)}
 .top{position:absolute;left:72px;right:72px;top:64px;height:40px;display:flex;justify-content:space-between;align-items:center;font-family:"Martian Mono",monospace;font-weight:500;font-size:21px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);z-index:3}
 .volt .top{color:rgba(11,12,10,.62)}
@@ -19,7 +19,7 @@ html,body{width:1080px;height:1350px;background:var(--track);overflow:hidden}
 .prog b{flex:1;height:8px;border-radius:4px;background:var(--line)}.prog b.on{background:var(--chalk)}.prog b.cur{background:var(--volt)}
 .volt .prog b{background:rgba(11,12,10,.18)}.volt .prog b.on,.volt .prog b.cur{background:var(--track)}
 em{font-style:normal;color:var(--volt)}.volt em{color:var(--track)}
-.ico{position:absolute;z-index:1;display:block}
+.ico{position:absolute;z-index:1;display:block;filter:hue-rotate(var(--hue,0deg))}
 .cover-main{position:absolute;left:72px;right:72px;top:150px;bottom:330px;display:flex;flex-direction:column;justify-content:flex-end;z-index:2}
 .kick{font-family:"Martian Mono",monospace;font-weight:500;font-size:24px;letter-spacing:.14em;color:var(--volt);margin-bottom:28px;display:flex;align-items:center;gap:18px}
 .kick:after{content:"";display:block;width:120px;height:10px;border-radius:5px;background:var(--volt)}
@@ -50,11 +50,12 @@ function prog(i,t){let h="";for(let k=1;k<=t;k++)h+='<b class="'+(k<i?"on":k===i
 function topbar(d,volt){return '<div class="top"><div class="tag"><i></i>Earned Miles</div>'+(volt?'<div>'+esc(d.date||"")+'</div>':'<div class="newsbadge">News</div>')+'</div>'}
 window.render=function(d){
   const w=[];const r=document.getElementById("root");
+  const rs=document.documentElement.style;rs.setProperty("--volt",d.accent||"#D4FF3A");rs.setProperty("--volt-deep",d.accentDeep||"#9DBF1F");rs.setProperty("--hue",(d.hue||0)+"deg");
   const bgsrc=d.bg?'<img class="bgimg" src="'+d.bg+'"'+(d.flip?' style="transform:scaleX(-1)"':'')+'>':'';
   const ico=(src,cls)=>src?'<img class="ico" src="'+src+'">':'';
   if(d.kind==="cover"){
     r.innerHTML='<div class="s cover">'+bgsrc+'<div class="glow"></div>'+topbar(d)+ico(d.icon)+
-      '<div class="cover-main"><div class="kick">NEWS FROM THE RUNNING WORLD</div><h1 id="h">'+rich(d.title)+'</h1></div>'+
+      '<div class="cover-main"><div class="kick">'+esc(d.kicker||"NEWS FROM THE RUNNING WORLD")+'</div><h1 id="h">'+rich(d.title)+'</h1></div>'+
       '<div class="hook" id="k">'+rich(d.hook)+'</div>'+prog(1,d.total)+'</div>';
     const h=document.getElementById("h");if(!fit(h,470,104,56,4))w.push("title");
     const k=document.getElementById("k");if(!fit(k,160,40,28,2))w.push("hook");
