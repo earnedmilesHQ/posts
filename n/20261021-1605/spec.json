@@ -13,36 +13,36 @@
   {
    "label": "What happened",
    "h": "*Australia is out*, USA leads",
-   "c": "As of 21 Oct, 15:24 CEST, the USA leads the Backyard Ultra World Team Championship on 1,101 yards. Australia finished on 1,069 with no runners left.",
+   "c": "As of 21 Oct, 15:51 CEST, the USA leads the Backyard Ultra World Team Championship on 1,103 yards. Australia finished on 1,069 with no runners left.",
    "icon": "trophy"
   },
   {
    "label": "The numbers",
    "h": "*Four nations* still running",
    "stat": [
-    "1,101",
+    "1,103",
     "USA team yards"
    ],
-   "c": "USA, Japan, Belgium and France each have 2 runners left. Japan is on 1,023 yards, Belgium 1,004, France 882.",
+   "c": "USA, Japan, Belgium and France each have 2 runners left. Japan is on 1,024 yards, Belgium 1,004, France 882.",
    "icon": "stopwatch"
   },
   {
    "label": "Why it matters",
    "h": "*100 yards* in sight",
-   "c": "The USA is on yard 97 and heading for 100. Every yard is a 6.7 km loop run hourly, and a nation's race ends when one runner completes a yard alone. Totals are provisional.",
+   "c": "The USA is on yard 98 and heading for 100. Every yard is a 6.7 km loop run hourly, and a nation's race ends when one runner completes a yard alone. Totals are provisional.",
    "icon": "podium"
   }
  ],
  "sources": [
-  "Official live standings, wtc2026.bigsbackyardultra.com (21 Oct 2026, 15:24 CEST)"
+  "Official live standings, wtc2026.bigsbackyardultra.com (21 Oct 2026, 15:51 CEST)"
  ],
  "story": "backyard-wtc-2026",
- "caption": "NEWS: Backyard Worlds: Australia is out, USA leads\n\nAs of 21 Oct, 15:24 CEST, the USA leads the Backyard Ultra World Team Championship on 1,101 yards. Australia finished on 1,069. USA, Japan, Belgium and France each have 2 runners left, and 100 yards is in sight. Totals are provisional.\n\nSource: Official Big's Backyard Ultra live standings\n\nTags: @bigdogbackyardultra\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #backyardultra #ultrarunning #worldteamchampionship",
+ "caption": "NEWS: Backyard Worlds: Australia is out, USA leads\n\nAs of 21 Oct, 15:51 CEST, the USA leads the Backyard Ultra World Team Championship on 1,103 yards. Australia finished on 1,069. USA, Japan, Belgium and France each have 2 runners left, and 100 yards is in sight. Totals are provisional.\n\nSource: Official Big's Backyard Ultra live standings\n\nTags: @bigdogbackyardultra\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #backyardultra #ultrarunning #worldteamchampionship",
  "facts": [
   {
-   "claim": "USA 1,101 (2 left), AUS 1,069 (out), JPN 1,023, BEL 1,004, FRA 882; yard 97",
-   "source": "official published leaderboard sheet linked from wtc2026.bigsbackyardultra.com",
-   "timestamp": "2026-10-21 15:24 CEST"
+   "claim": "USA 1,103 (2 left), AUS 1,069 (out), JPN 1,024, BEL 1,004, FRA 882; yard 98",
+   "source": "official leaderboard sheet linked from wtc2026.bigsbackyardultra.com",
+   "timestamp": "2026-10-21 15:51 CEST"
   }
  ]
 }
