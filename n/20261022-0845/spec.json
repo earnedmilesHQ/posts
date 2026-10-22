@@ -1,0 +1,54 @@
+{
+ "date": "22 OCT 2026",
+ "category": "records",
+ "accent": "#FFB000",
+ "accentDeep": "#B37A00",
+ "hue": -31,
+ "kicker": "NEWS · RECORDS & RESULTS",
+ "title": "*Mark Dowdle* last man standing",
+ "hook": "107 yards, 717 km: USA closes the Backyard Worlds on 1,120.",
+ "icon": "laurel",
+ "seed": 5,
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "*107 yards* for the USA",
+   "c": "As of 22 Oct, 08:25 CEST, Mark Dowdle is last man standing at the Backyard Ultra World Team Championship. Jon Noll gave him the assist.",
+   "icon": "trophy"
+  },
+  {
+   "label": "The numbers",
+   "h": "*717 km* without a finish",
+   "stat": [
+    "717 km",
+    "Mark Dowdle, 107 yards"
+   ],
+   "c": "The USA closed on 1,120 team yards. Australia ended on 1,069, Japan 1,038, Belgium 1,024 at the last report.",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "Past *100 yards*",
+   "c": "Every yard is a 6.7 km loop run every hour, so 107 yards means 107 hours on the move. The race ends when one runner completes a yard alone. Totals are provisional.",
+   "icon": "podium"
+  }
+ ],
+ "sources": [
+  "@rappid.run (Instagram, 22 Oct 2026)",
+  "Sportzhub (22 Oct 2026)"
+ ],
+ "story": "backyard-wtc-2026",
+ "caption": "NEWS: Mark Dowdle is last man standing at Backyard Worlds\n\nAs of 22 Oct, 08:25 CEST, Mark Dowdle ran 107 yards (717 km / 445 miles) for the USA at the Backyard Ultra World Team Championship. The USA closed on 1,120 team yards, with Jon Noll giving him the assist. Totals are provisional.\n\nSource: @rappid.run, Sportzhub\n\nTags: @mark.dowdle @bigdogbackyardultra @rappid.run\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #backyardultra #ultrarunning #markdowdle #worldteamchampionship",
+ "facts": [
+  {
+   "claim": "Mark Dowdle last man standing, 107 loops, 717 km / 445 miles; assist Jon Noll",
+   "source": "https://www.instagram.com/rappid.run/ (post screenshot provided by Andrew)",
+   "timestamp": "2026-10-22 08:24 CEST (posted ~7h earlier)"
+  },
+  {
+   "claim": "USA finished on 1,120 team yards; Australia 1,069, Japan 1,038, Belgium 1,024",
+   "source": "https://www.sportzhub.com/article/belgium-chases-backyard-ultra-world-title-as-usa-finishes-on-1120-yards.html",
+   "timestamp": "2026-10-22 02:05 CEST"
+  }
+ ]
+}
