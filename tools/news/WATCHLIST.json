@@ -1,5 +1,32 @@
 [
-  {"id":"chicago-2027-close","what":"Chicago Marathon 2027 applications close (opened 8 Oct; general drawing results 8 Dec)","date_time_prague":"2026-10-29T21:00:00+01:00","source_url":"https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/09/bank-of-america-chicago-distance-series-details-ways-to-secure-e.html","status":"pending","note":"Closes Thu 29 Oct 14:00 CT; post a 'last chance' REGISTRATION carousel on 28-29 Oct after verifying on chicagomarathon.com"},
-  {"id":"london-2027-gfa","what":"London Marathon 2027 Good For Age / Championship entries open (Oct 2026, exact date TBC)","date_time_prague":"TBC","source_url":"https://www.londonmarathon.com","status":"pending"},
-  {"id":"berlin-2027-ballot","what":"Berlin Marathon 2027 registration (expected Oct-Nov 2026, TBC)","date_time_prague":"TBC","source_url":"https://www.bmw-berlin-marathon.com","status":"pending"}
+ {
+  "id": "chicago-2027-close",
+  "what": "Chicago Marathon 2027 applications close (opened 8 Oct; general drawing results 8 Dec)",
+  "date_time_prague": "2026-10-29T21:00:00+01:00",
+  "source_url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/09/bank-of-america-chicago-distance-series-details-ways-to-secure-e.html",
+  "status": "pending",
+  "note": "Closes Thu 29 Oct 14:00 CT; post a 'last chance' REGISTRATION carousel on 28-29 Oct after verifying on chicagomarathon.com"
+ },
+ {
+  "id": "london-2027-gfa",
+  "what": "London Marathon 2027 Good For Age / Championship entries open (Oct 2026, exact date TBC)",
+  "date_time_prague": "TBC",
+  "source_url": "https://www.londonmarathon.com",
+  "status": "pending"
+ },
+ {
+  "id": "berlin-2027-ballot",
+  "what": "Berlin Marathon 2027 registration (expected Oct-Nov 2026, TBC)",
+  "date_time_prague": "TBC",
+  "source_url": "https://www.bmw-berlin-marathon.com",
+  "status": "pending"
+ },
+ {
+  "id": "satisfy-adidas-2026-10-30",
+  "what": "Satisfy x Adidas Adios / Pro Evo 2 release (announcement carousel posted 24 Oct)",
+  "date_time_prague": "2026-10-30T16:00:00+01:00",
+  "source_url": "https://www.complex.com/sneakers/a/victor-deng/satisfy-adidas-pro-evo-2-adizero-adios-release-date",
+  "status": "announced",
+  "post_folder": "n/20261024-1145"
+ }
 ]
