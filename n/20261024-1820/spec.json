@@ -1,0 +1,25 @@
+{
+ "date": "24 OCT 2026",
+ "title": "Jepchirchir *suspended* over EPO",
+ "hook": "Olympic and world marathon champion provisionally banned by the AIU.",
+ "icon": "megaphone",
+ "seed": 4,
+ "category": "HYPE",
+ "accent": "#A56BFF",
+ "accentDeep": "#7249B3",
+ "hue": 192,
+ "kicker": "NEWS · HYPE",
+ "slides": [
+  {"label":"What happened","h":"Peres Jepchirchir hit by a *provisional ban*","c":"The Athletics Integrity Unit announced on 23 Oct an EPO finding in an out-of-competition sample taken in Kenya. It is not a finding of guilt.","icon":"megaphone"},
+  {"label":"The numbers","h":"A *Sydney win* now at risk","stat":["2:18:31","Sydney Marathon win"],"c":"The sample was taken before Sydney on 30 Aug. The win could be disqualified if the finding stands. She can request B sample analysis.","icon":"stopwatch"},
+  {"label":"Why it matters","h":"Majors rules are *strict*","c":"She is the 2021 Olympic and 2025 world champion. Sydney organisers say a ban of 3+ months means a lifetime ban from all Majors.","icon":"newspaper"}
+ ],
+ "sources": ["CITIUS Mag, 23 Oct 2026", "ABC News (Reuters), 24 Oct 2026"],
+ "story": "jepchirchir-epo-provisional-suspension-2026-10",
+ "facts": [
+  {"claim":"AIU announced provisional suspension of Peres Jepchirchir on 23 Oct 2026 after EPO adverse analytical finding in an out-of-competition sample in Kenya","source":"https://www.abc.net.au/news/2026-10-24/sydney-marathon-champion-jepchirchir-provisional-ban-epo/107304266","ts":"2026-10-24T07:15+11:00"},
+  {"claim":"Provisional suspension, not a finding of guilt; sample taken before Sydney Marathon (30 Aug); win could be disqualified; B sample can be requested; WMM rule: 3+ month ban = lifetime ban from Majors; titles Olympic 2021, world 2025","source":"https://citiusmag.com/articles/peres-jepchirchir-doping-provisionally-suspended-epo","ts":"2026-10-23"},
+  {"claim":"Sydney Marathon women's winner in 2:18:31","source":"https://www.abc.net.au/news/2026-10-24/sydney-marathon-champion-jepchirchir-provisional-ban-epo/107304266","ts":"2026-10-24T07:15+11:00"}
+ ],
+ "caption": "NEWS: Jepchirchir provisionally suspended for EPO\n\nAs of 24 Oct, the Athletics Integrity Unit has provisionally suspended Olympic and world marathon champion Peres Jepchirchir after an EPO finding in an out-of-competition sample taken before the Sydney Marathon. It is not a finding of guilt; her Sydney win could be disqualified.\n\nSource: CITIUS Mag, ABC News\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #marathon #antidoping #sydneymarathon"
+}
