@@ -12,13 +12,14 @@
   "what": "London Marathon 2027 Good For Age / Championship entries open (Oct 2026, exact date TBC)",
   "date_time_prague": "TBC",
   "source_url": "https://www.londonmarathon.com",
-  "status": "pending"
+  "status": "stale",
+  "note": "2027 ballot already open and results emailed (per marathonhandbook/womanandhome); GFA exact date unconfirmed on official page"
  },
  {
   "id": "berlin-2027-ballot",
-  "what": "Berlin Marathon 2027 registration (expected Oct-Nov 2026, TBC)",
-  "date_time_prague": "TBC",
-  "source_url": "https://www.bmw-berlin-marathon.com",
+  "what": "Berlin Marathon 2027 ballot closes 12 Nov (opened 1 Oct, draw 3 Dec) per marathonballot.com; verify on official site",
+  "date_time_prague": "2026-11-12",
+  "source_url": "https://www.generali-berlin-marathon.com",
   "status": "pending"
  },
  {
