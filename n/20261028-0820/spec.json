@@ -1,0 +1,59 @@
+{
+ "date": "28 OCT 2026",
+ "category": "REGISTRATION",
+ "accent": "#4D8DFF",
+ "accentDeep": "#3162B3",
+ "hue": 146,
+ "kicker": "NEWS \u00b7 REGISTRATION",
+ "title": "Chicago 2027: *last call* to apply",
+ "hook": "Applications for the 2027 Chicago Marathon close tomorrow, 29 Oct.",
+ "icon": "calendar",
+ "seed": 2,
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "The *drawing window* closes Thursday",
+   "c": "Applications for the 2027 Bank of America Chicago Marathon opened 8 Oct. They close 29 Oct at 2 p.m. Central Time.",
+   "icon": "megaphone"
+  },
+  {
+   "label": "Key dates",
+   "h": "Mark the *deadline*",
+   "stat": [
+    "29 Oct",
+    "Closes 2 p.m. CT"
+   ],
+   "c": "Drawing results arrive on 8 Dec. The entry fee is $250 for U.S. and $260 for international applicants.",
+   "icon": "calendar"
+  },
+  {
+   "label": "How to enter",
+   "h": "Apply on the *official site*",
+   "c": "Apply only through the official Chicago Marathon website. Applying is not a guaranteed spot: it is a drawing.",
+   "icon": "finish"
+  }
+ ],
+ "sources": [
+  "Bank of America Newsroom (15 Sep 2026)",
+  "Marathon Handbook (as of 28 Oct 2026)"
+ ],
+ "story": "chicago-2027-application-close",
+ "facts": [
+  {
+   "claim": "Applications opened 8 Oct 2026 8am CT, close 29 Oct 2026 2pm CT",
+   "source": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/09/bank-of-america-chicago-distance-series-details-ways-to-secure-e.html",
+   "source_time": "fetched 2026-10-28 07:20 UTC"
+  },
+  {
+   "claim": "Fee $250 US / $260 international; drawing results 8 Dec",
+   "source": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/09/bank-of-america-chicago-distance-series-details-ways-to-secure-e.html",
+   "source_time": "fetched 2026-10-28 07:20 UTC"
+  },
+  {
+   "claim": "Same close/results dates",
+   "source": "https://marathonhandbook.com/chicago-marathon-2027-registration/",
+   "source_time": "fetched 2026-10-28 07:20 UTC"
+  }
+ ],
+ "caption": "NEWS: Chicago Marathon 2027 applications close tomorrow\n\nThe general application window for the 2027 Bank of America Chicago Marathon closes Thursday 29 Oct at 2 p.m. Central Time (as of 28 Oct). Drawing results follow on 8 Dec.\n\nSource: Bank of America Newsroom, Marathon Handbook\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #chicagomarathon #marathon #marathonlottery"
+}
