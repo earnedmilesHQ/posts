@@ -24,11 +24,10 @@
   "status": "pending"
  },
  {
-  "id": "satisfy-adidas-2026-10-30",
-  "what": "Satisfy x Adidas Adios / Pro Evo 2 release (announcement carousel posted 24 Oct)",
-  "date_time_prague": "2026-10-30T16:00:00+01:00",
-  "source_url": "https://www.complex.com/sneakers/a/victor-deng/satisfy-adidas-pro-evo-2-adizero-adios-release-date",
-  "status": "announced",
-  "post_folder": "n/20261024-1145"
+  "id": "nyc-marathon-2026",
+  "what": "TCS New York City Marathon 2026 race day (pro races ~14:00-16:00 Prague); post winners/records if notable",
+  "date_time_prague": "2026-11-01T15:00:00+01:00",
+  "source_url": "https://www.nyrr.org/races-and-events/2026/2026-tcs-new-york-city-marathon",
+  "status": "pending"
  }
 ]
