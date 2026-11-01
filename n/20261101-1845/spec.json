@@ -1,0 +1,69 @@
+{
+ "date": "1 NOV 2026",
+ "title": "*Almgren* wins NYC Marathon debut",
+ "hook": "Sweden's Andreas Almgren and Kenya's Sheila Chepkirui win New York.",
+ "icon": "trophy",
+ "seed": 3,
+ "category": "RECORDS & RESULTS",
+ "accent": "#FFB000",
+ "accentDeep": "#B37A00",
+ "hue": -31,
+ "kicker": "NEWS \u00b7 RECORDS & RESULTS",
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "A *debut win* in New York",
+   "c": "Andreas Almgren (SWE) won the men's race on his marathon debut. Sheila Chepkirui (KEN) took the women's title, her second in NYC.",
+   "icon": "trophy"
+  },
+  {
+   "label": "The numbers",
+   "h": "Razor-thin *finishes*",
+   "stat": [
+    "2:06:01",
+    "Almgren, men's win"
+   ],
+   "c": "Crippa was 2nd (2:06:14), Mofolo 3rd (2:06:26). Chepkirui ran 2:24:36, six seconds clear of Jessica McClain (USA).",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "A *star* debut",
+   "c": "Almgren, the World Half Marathon champion, won on his first marathon. Reportedly McClain's second place is the first US women's podium since 2018.",
+   "icon": "podium"
+  }
+ ],
+ "sources": [
+  "Marathon Journal, 1 Nov 2026",
+  "The Independent via Yahoo Sports, 1 Nov 2026"
+ ],
+ "story": "nyc-marathon-2026-result",
+ "facts": [
+  {
+   "claim": "Almgren won men's 2:06:01; Crippa 2:06:14; Mofolo 2:06:26",
+   "source": "https://marathonjournal.com/2026-new-york-city-marathon-results/",
+   "ts": "2026-11-01T16:32Z"
+  },
+  {
+   "claim": "Same men's/women's top 5 times",
+   "source": "https://sports.yahoo.com/articles/york-city-marathon-2026-results-162826825.html",
+   "ts": "2026-11-01T16:28Z"
+  },
+  {
+   "claim": "Chepkirui 2:24:36, 6s ahead of McClain; second NYC title",
+   "source": "https://sports.yahoo.com/articles/york-city-marathon-2026-results-162826825.html",
+   "ts": "2026-11-01T16:28Z"
+  },
+  {
+   "claim": "Almgren World Half Marathon champion, marathon debut",
+   "source": "https://www.cbsnews.com/newyork/news/nyc-marathon-2026-runners-winners/",
+   "ts": "2026-11-01T13:54Z"
+  },
+  {
+   "claim": "McClain first US women's podium since 2018 (reportedly)",
+   "source": "https://marathonjournal.com/2026-new-york-city-marathon-results/",
+   "ts": "2026-11-01T16:32Z"
+  }
+ ],
+ "caption": "NEWS: Almgren wins NYC Marathon on his debut\n\nAndreas Almgren (SWE) won the 2026 New York City Marathon in 2:06:01 on his marathon debut; Sheila Chepkirui (KEN) won the women's race in 2:24:36, six seconds ahead of Jessica McClain (USA). Results as of 1 Nov 2026.\n\nSource: Marathon Journal, The Independent\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #nycmarathon #marathon #almgren"
+}
