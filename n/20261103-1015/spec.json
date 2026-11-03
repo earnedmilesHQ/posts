@@ -1,0 +1,24 @@
+{
+ "date": "3 NOV 2026",
+ "title": "NYC Marathon: *61,146* finishers, a world record",
+ "hook": "First marathon ever to see more than 60,000 runners cross the line.",
+ "icon": "finish",
+ "seed": 4,
+ "category": "RECORDS & RESULTS",
+ "accent": "#FFB000",
+ "accentDeep": "#B37A00",
+ "hue": -31,
+ "kicker": "NEWS · RECORDS & RESULTS",
+ "slides": [
+  {"label":"What happened","h":"The *biggest* marathon ever","c":"The 2026 TCS New York City Marathon is the first marathon to pass 60,000 finishers. It is the third year in a row NYC set the record.","icon":"finish"},
+  {"label":"The numbers","h":"Beating *London* by 1,300","stat":["61,146","finishers, 61,529 starters"],"c":"The previous record was 59,830 at London in April. 15,745 finishers were international; 153 countries were represented.","icon":"stopwatch"},
+  {"label":"Why it matters","h":"Mass running is *growing*","c":"The record came on the 50th anniversary of the five-borough course. Figures are as of 1 Nov and may change after final scoring checks.","icon":"globe"}
+ ],
+ "sources": ["NBC Sports, 2 Nov 2026","Running USA / NYRR, 2 Nov 2026"],
+ "story": "nyc-marathon-2026-finishers-record",
+ "facts": [
+  {"claim":"61,146 finishers of 61,529 starters; first marathon above 60,000; previous record 59,830 London April 2026; third straight year","source":"https://www.nbcsports.com/olympics/news/new-york-city-marathon-2026-finishers-record","ts":"2026-11-03T00:06Z"},
+  {"claim":"61,146 finishers, 15,745 international, 153 countries, 50 years of five-borough course, figures subject to final scoring","source":"https://www.runningusa.org/industry-news/2026-tcs-new-york-city-marathon-becomes-the-first-marathon-ever-to-exceed-60000-finisher-mark/","ts":"2026-11-03T00:27Z"}
+ ],
+ "caption": "NEWS: NYC Marathon becomes first ever with 60,000+ finishers\n\nThe 2026 TCS New York City Marathon had 61,146 finishers (61,529 starters), beating London's 59,830 from April. Figures as of 1 Nov 2026, subject to final scoring.\n\nSource: NBC Sports, Running USA\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #nycmarathon #marathon #worldrecord"
+}
