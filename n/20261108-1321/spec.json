@@ -1,0 +1,62 @@
+{
+ "date": "8 NOV 2026",
+ "title": "Athens Marathon: *both course records* fall",
+ "hook": "Ethiopian winners rewrite the Athens record books on race day.",
+ "icon": "trophy",
+ "seed": 3,
+ "category": "RECORDS & RESULTS",
+ "accent": "#FFB000",
+ "accentDeep": "#B37A00",
+ "hue": -31,
+ "kicker": "NEWS · RECORDS & RESULTS",
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "Two *course records* in Athens",
+   "c": "At the Athens Authentic Marathon on 8 Nov, the men's and women's course records both fell, per Greek media reports.",
+   "icon": "podium"
+  },
+  {
+   "label": "The numbers",
+   "h": "Men *2:10:03*, women *2:30:04*",
+   "stat": [
+    "2:10:03",
+    "Men's new record"
+   ],
+   "c": "Taferi (ETH) won the men's race, beating the 2:10:34 record from 2023. The women's winner (ETH) ran 2:30:04, beating 2:31:06 from 2010.",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "A *rare double* on the classic course",
+   "c": "The original marathon route is known for its hills. Both records falling on the same day is rare. Times are unofficial until confirmed by the organiser.",
+   "icon": "laurel"
+  }
+ ],
+ "sources": [
+  "Greek City Times, 8 Nov 2026",
+  "FatMarathoner, 8 Nov 2026"
+ ],
+ "story": "athens-marathon-2026",
+ "caption": "NEWS: Athens Marathon course records fall for men and women\n\nAt the Athens Authentic Marathon on 8 Nov 2026, Taferi (ETH) reportedly won the men's race in 2:10:03 and the women's winner ran 2:30:04, both new course records (as of 8 Nov, 14:00 CET).\nSource: Greek City Times, FatMarathoner\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #athensmarathon #marathon #courserecord",
+ "facts": [
+  {
+   "claim": "Men's winner Taferi (ETH) 2:10:03, new course record; previous 2:10:34 (2023)",
+   "source": "https://greekcitytimes.com/2026/11/08/athens-authentic-marathon-2026-course-records",
+   "timestamp": "2026-11-08T10:31Z"
+  },
+  {
+   "claim": "Women's winner (ETH) 2:30:04, new course record; previous 2:31:06 (2010)",
+   "source": "https://fatmarathoner.com/athens-marathon-2026-results/",
+   "timestamp": "2026-11-08T11:26Z"
+  },
+  {
+   "claim": "Both CRs falling is rare (second edition with both)",
+   "source": "https://fatmarathoner.com/athens-marathon-2026-results/",
+   "timestamp": "2026-11-08T11:26Z"
+  },
+  {
+   "note": "Official results page (athensauthenticmarathon.gr) could not be fetched; times phrased as unofficial/reportedly"
+  }
+ ]
+}
