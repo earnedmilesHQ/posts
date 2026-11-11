@@ -21,7 +21,8 @@
   "what": "Berlin Marathon 2027 ballot closes 12 Nov (opened 1 Oct, draw 3 Dec) per marathonballot.com; verify on official site",
   "date_time_prague": "2026-11-12",
   "source_url": "https://www.generali-berlin-marathon.com",
-  "status": "pending"
+  "status": "pending",
+  "note": "11 Nov: marathonhandbook (1 Oct) confirms open until 12 Nov, results 3 Dec; official site not readable by fetch yet. Post 'last chance' once 2nd source/official confirms (needs only 1 official or 2 credible)."
  },
  {
   "id": "nyc-marathon-2026",
