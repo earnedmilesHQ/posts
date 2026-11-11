@@ -1,0 +1,60 @@
+{
+ "date": "11 NOV 2026",
+ "title": "Berlin Marathon ballot *closes tomorrow*",
+ "hook": "Last chance to enter the 2027 Berlin Marathon lottery.",
+ "icon": "calendar",
+ "seed": 3,
+ "category": "REGISTRATION",
+ "accent": "#4D8DFF",
+ "accentDeep": "#3162B3",
+ "hue": 146,
+ "kicker": "NEWS · REGISTRATION",
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "The *2027 ballot* closes 12 Nov",
+   "c": "The BMW Berlin Marathon lottery opened on 1 Oct and shuts on Thursday 12 Nov 2026. Entry is via the official site.",
+   "icon": "calendar"
+  },
+  {
+   "label": "Key dates",
+   "h": "Mark these *dates*",
+   "stat": [
+    "12 Nov",
+    "Ballot closes"
+   ],
+   "c": "Results are emailed on 3 Dec. Race day is Sunday 26 Sep 2027. Fee reportedly €215, charged from 4 Dec.",
+   "icon": "calendar"
+  },
+  {
+   "label": "How to enter",
+   "h": "Enter *before* it shuts",
+   "c": "Sign up on the official Berlin Marathon site. Time-qualifier entries use the same window. Closing time unconfirmed, so do not wait.",
+   "icon": "megaphone"
+  }
+ ],
+ "sources": [
+  "Marathon Handbook, 1 Oct 2026",
+  "The Running Channel, 2 Oct 2026",
+  "As of 11 Nov 2026"
+ ],
+ "story": "berlin-2027-ballot-close",
+ "caption": "NEWS: Berlin Marathon 2027 ballot closes tomorrow\n\nThe BMW Berlin Marathon lottery for 2027 closes on Thursday 12 Nov 2026; results are emailed on 3 Dec (as of 11 Nov 2026).\nSource: Marathon Handbook, The Running Channel\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #berlinmarathon #marathon #marathonlottery",
+ "facts": [
+  {
+   "claim": "Lottery opened 1 Oct, closes 12 Nov 2026",
+   "source": "https://marathonhandbook.com/berlin-marathon-2027-lottery/",
+   "source_time": "2026-10-01"
+  },
+  {
+   "claim": "Lottery open 1 Oct to 12 Nov 2026; results 3 Dec",
+   "source": "https://therunningchannel.com/berlin-marathon-2027-lottery/",
+   "source_time": "2026-10-02"
+  },
+  {
+   "claim": "Fee EUR 215, charged from 4 Dec; race 26 Sep 2027",
+   "source": "https://marathonhandbook.com/berlin-marathon-2027-lottery/",
+   "source_time": "2026-10-01"
+  }
+ ]
+}
