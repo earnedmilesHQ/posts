@@ -1,0 +1,60 @@
+{
+ "date": "12 NOV 2026",
+ "title": "Ngetich's *marathon debut* is set",
+ "hook": "The half marathon world champion will debut in Valencia on 6 Dec.",
+ "icon": "trophy",
+ "seed": 5,
+ "category": "HYPE",
+ "accent": "#A56BFF",
+ "accentDeep": "#7249B3",
+ "hue": 192,
+ "kicker": "NEWS · HYPE",
+ "slides": [
+  {
+   "label": "What happened",
+   "h": "Agnes Ngetich picks *Valencia*",
+   "c": "Race organisers announced on 12 Nov that the Kenyan will run her first marathon in Valencia on 6 Dec 2026.",
+   "icon": "megaphone"
+  },
+  {
+   "label": "The numbers",
+   "h": "A *record-setter* steps up",
+   "stat": [
+    "28:46",
+    "10K world record"
+   ],
+   "c": "She also won the 2026 world road half marathon in 1:05:15. The fastest women's debut is Fotyen Tesfay's 2:10:51.",
+   "icon": "stopwatch"
+  },
+  {
+   "label": "Why it matters",
+   "h": "A stacked *Valencia field*",
+   "c": "Tesfay, Joyciline Jepkosgei and Emily Sisson are also named. Fans will watch whether Ngetich beats the best debut ever.",
+   "icon": "trophy"
+  }
+ ],
+ "sources": [
+  "Canadian Running Magazine, 12 Nov 2026",
+  "Reuters, 12 Nov 2026",
+  "As of 12 Nov 2026"
+ ],
+ "story": "ngetich-valencia-marathon-debut",
+ "caption": "NEWS: Agnes Ngetich to make her marathon debut in Valencia\n\nValencia organisers announced on 12 Nov 2026 that the world half marathon champion and 10K world record holder will debut over 26.2 miles on 6 Dec. The fastest women's marathon debut is currently Fotyen Tesfay's 2:10:51.\nSource: Canadian Running Magazine, Reuters\n\nRace: @maratonvalencia\n\nFollow @earnedmileshq for running news and one running idea a day.\n\n#runningnews #running #runnersofinstagram #agnesngetich #valenciamarathon #marathon",
+ "facts": [
+  {
+   "claim": "Valencia organisers announced Ngetich's marathon debut on 12 Nov; race 6 Dec",
+   "source": "https://runningmagazine.ca/the-scene/agnes-ngetich-announces-marathon-debut-in-valencia",
+   "source_time": "2026-11-12T16:53Z"
+  },
+  {
+   "claim": "World half marathon champion set for Valencia debut on 6 Dec per organisers",
+   "source": "https://www.devdiscourse.com/article/international/4006046-athletics-world-half-marathon-champion-ngetich-set-for-marathon-debut-in-valencia",
+   "source_time": "2026-11-12 21:07 IST (Reuters)"
+  },
+  {
+   "claim": "10K WR 28:46 (2024), 2026 world road half 1:05:15, fastest women's debut Tesfay 2:10:51, named entrants Tesfay/Jepkosgei/Sisson",
+   "source": "https://runningmagazine.ca/the-scene/agnes-ngetich-announces-marathon-debut-in-valencia",
+   "source_time": "2026-11-12T16:53Z"
+  }
+ ]
+}
